@@ -1,0 +1,473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3390500664618276917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3608952739642354028}
+  m_Layer: 0
+  m_Name: Large Pack Decore Rocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3608952739642354028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3390500664618276917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.95, y: -0.34, z: -4.8716626}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2509267183588370690}
+  - {fileID: 8250765612516053353}
+  - {fileID: 3421728754957476025}
+  - {fileID: 3596080101574174913}
+  - {fileID: 5317608945160995712}
+  - {fileID: 4801747796363596634}
+  - {fileID: 3037597889645003561}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2306093932950151023
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.4515457
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.064518
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.999184
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.040390704
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 355.37
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (35)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &3596080101574174913 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 2306093932950151023}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3690003695033179820
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.241905
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.6864738
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.17640528
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.98431766
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 200.321
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (38)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &2509267183588370690 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 3690003695033179820}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4305587297832989831
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.9573997
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.288766
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 393.568
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (32)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &3037597889645003561 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 4305587297832989831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4511304826599659287
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.1035614
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 5.308768
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.75757265
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.65275097
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 278.501
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (36)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &3421728754957476025 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 4511304826599659287}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &5999938006860227828
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.0795364
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.694905
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.6390473
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7691675
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 460.55798
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (33)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &4801747796363596634 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 5999938006860227828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6353667387765716014
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.9018135
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.03438568
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.022448828
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.999748
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 537.427
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (34)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &5317608945160995712 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 6353667387765716014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7162878888950343367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3608952739642354028}
+    m_Modifications:
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.348377
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 9.818339
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.27153468
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9624287
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 211.511
+      objectReference: {fileID: 0}
+    - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_Name
+      value: Decore Rocks (37)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+--- !u!4 &8250765612516053353 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+  m_PrefabInstance: {fileID: 7162878888950343367}
+  m_PrefabAsset: {fileID: 0}
