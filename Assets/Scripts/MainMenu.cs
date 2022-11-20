@@ -31,20 +31,24 @@ public class MainMenu : ProjectBehaviour
     {
         SceneManager.LoadScene(1);
         //float InGameTimeStartPressed = Time.time;
-        startTime = Time.time;
+        StartTime = Time.time;
         //PlayerPrefs.SetFloat("GameStart", InGameTimeStartPressed);
         //PlayerPrefs.SetFloat("GameTimer", InGameTimeStartPressed);
+
+        Competetive = false;
+        GameWon = false;
     }
 
     public void StartCompetetive()
     {
         SceneManager.LoadScene(1);
         //float InGameTimeStartPressed = Time.time;
-        startTime = Time.time;
+        StartTime = Time.time;
         //PlayerPrefs.SetFloat("GameStart", InGameTimeStartPressed);
         //PlayerPrefs.SetFloat("GameTimer", InGameTimeStartPressed);
 
         Competetive = true;
+        GameWon = false;
     }
 
     public void OpenStart()

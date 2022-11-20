@@ -42,7 +42,13 @@ public class InGameHud : ProjectBehaviour
 
     void Update()
     {
-        float time = Time.time - startTime;
+        float time = Time.time - StartTime;
+
+        if (GameWon == true)
+        {
+            time = TimeWhenWon;
+        }
+
         ShowTimeHud.text = "Time: " + time.ToString("0.00") + " sec";
 
         if (m_timeCounter < m_refreshTime)
@@ -59,4 +65,6 @@ public class InGameHud : ProjectBehaviour
         }
         ShowFpsHud.text = "FPS: " + Mathf.RoundToInt(m_lastFramerate);
     }
+
+
 }

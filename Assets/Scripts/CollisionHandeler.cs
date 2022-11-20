@@ -14,6 +14,7 @@ public class CollisionHandeler : ProjectBehaviour
     [SerializeField] ParticleSystem loseParticle;
 
     public TMP_Text WinOrLoseTextOnHud;
+    public GameObject GameWonPanel;
 
     AudioSource audioSource;
 
@@ -124,9 +125,36 @@ public class CollisionHandeler : ProjectBehaviour
 
     void StartNextLevelSequence()
     {
-        if (SceneManager.GetActiveScene().buildIndex == SceneManager.sceneCountInBuildSettings)
+        if ((SceneManager.GetActiveScene().buildIndex + 1) == SceneManager.sceneCountInBuildSettings)
         {
-            
+            GameWon = true;
+            TimeWhenWon = Time.time - StartTime;
+            WinOrLoseTextOnHud.color = new Color(0, 231, 0, 255);
+            WinOrLoseTextOnHud.text = "CONGRATS YOU DID IT!";
+            if (Competetive == false)
+            {
+                isTransitioning = true;
+                audioSource.Stop();
+                GetComponent<Movement>().enabled = false;
+                audioSource.PlayOneShot(winAudioClip);
+                winParticle.Play();
+                Invoke("LoadSceneWinFreePlay", winOrLoseDelay * 2);
+            }
+            else
+            {
+                isTransitioning = true;
+                audioSource.Stop();
+                GetComponent<Movement>().enabled = false;
+                audioSource.PlayOneShot(winAudioClip);
+                winParticle.Play();
+                Invoke("LoadSceneWinCompetetive", winOrLoseDelay * 2);
+
+                // toon scherm met tijd en submit knop
+
+
+            }
+
+            return;
         }
 
         var deathRotationInRadiants = ConvertToRadians(DeathRotationIndegrees);
@@ -198,5 +226,15 @@ public class CollisionHandeler : ProjectBehaviour
     void LoadSceneDeadHardcore()
     {
         SceneManager.LoadScene(0);
+    }
+
+    void LoadSceneWinFreePlay()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    void LoadSceneWinCompetetive()
+    {
+        GameWonPanel.SetActive(true);
     }
 }

@@ -14,26 +14,26 @@ public class StartScreen : ProjectBehaviour
 
     void Start()
     {
-        if (HardcoreMode == true)
-        {
-            HardcoreOnOrOff.text = "ON";
-            HardcoreToggle.isOn = true;
-        }
-        else
+        if (HardcoreMode == false)
         {
             HardcoreOnOrOff.text = "OFF";
             HardcoreToggle.isOn = false;
         }
-
-        if (RealLanding == true)
-        {
-            RealLandingOnOrOff.text = "ON";
-            RealLandingToggle.isOn = true;
-        }
         else
+        {
+            HardcoreOnOrOff.text = "ON";
+            HardcoreToggle.isOn = true;
+        }
+
+        if (RealLanding == false)
         {
             RealLandingOnOrOff.text = "OFF";
             RealLandingToggle.isOn = false;
+        }
+        else
+        {
+            RealLandingOnOrOff.text = "ON";
+            RealLandingToggle.isOn = true;
         }
     }
 
