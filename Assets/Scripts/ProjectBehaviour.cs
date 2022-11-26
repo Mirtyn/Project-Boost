@@ -14,4 +14,6 @@ public class ProjectBehaviour : MonoBehaviour
     public static bool GameWon = false;
 
     public static string PlayerName;
+
+    public static string Version = "Beta 0.1.0";
 }

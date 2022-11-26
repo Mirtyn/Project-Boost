@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
+using UnityEditor;
+using ProjectBoostLadder;
+using System.Globalization;
 
 public class GameWonTab : ProjectBehaviour
 {
@@ -33,7 +36,22 @@ public class GameWonTab : ProjectBehaviour
 
     public void SubmitButtonPressed()
     {
-        Debug.Log(PlayerName);
-        Debug.Log(TimeWhenWon);
+        var version = ProjectBehaviour.Version;
+        
+        var ladderService = new LadderClientApi(@"https://project-boost.mirtyn.be/ladder/post");
+
+        if (ladderService.TryPost(new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon }, version, out LadderClientApi.PostResponse response))
+        {
+            Debug.Log("The data was succesfully saved.");
+            Debug.Log($"You are position {response.Position} on the ladder.");
+        }
+        else
+        {
+            Debug.Log("The data could not be saved.");
+            Debug.Log("Please try again latter.");
+        }
+
+        //Debug.Log(PlayerName);
+        //Debug.Log(TimeWhenWon);
     }
 }

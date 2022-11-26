@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using UnityEditor;
 
 public class InGameHud : ProjectBehaviour
 {
@@ -36,7 +37,7 @@ public class InGameHud : ProjectBehaviour
         ShowHardcoreHud.text = HardCoreShow;
         ShowRealLandingHud.text = RealLandingShow;
 
-        ShowVersionHud.text = "Beta 0.1.0";
+        ShowVersionHud.text = ProjectBehaviour.Version;
         ShowLevelHud.text = "Level: " + SceneManager.GetActiveScene().buildIndex;
     }
 
