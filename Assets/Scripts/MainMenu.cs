@@ -17,14 +17,14 @@ public class MainMenu : ProjectBehaviour
 
     void Update()
     {
-        if (HardcoreMode == true || RealLanding == true )
-        {
-            CompetetiveButton.enabled = false;
-        }
-        else
-        {
-            CompetetiveButton.enabled = true;
-        }
+        //if (HardcoreMode == true || RealLanding == true )
+        //{
+        //    CompetetiveButton.enabled = false;
+        //}
+        //else
+        //{
+        //    CompetetiveButton.enabled = true;
+        //}
     }
 
     public void StartFreePlay()
@@ -36,6 +36,7 @@ public class MainMenu : ProjectBehaviour
         //PlayerPrefs.SetFloat("GameTimer", InGameTimeStartPressed);
 
         Competetive = false;
+        HardcoreMode = false;
         GameWon = false;
     }
 
