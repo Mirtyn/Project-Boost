@@ -14,54 +14,27 @@ public class StartScreen : ProjectBehaviour
 
     void Start()
     {
-        if (HardcoreMode == false)
-        {
-            HardcoreOnOrOff.text = "OFF";
-            HardcoreToggle.isOn = false;
-        }
-        else
-        {
-            HardcoreOnOrOff.text = "ON";
-            HardcoreToggle.isOn = true;
-        }
-
-        if (RealLanding == false)
-        {
-            RealLandingOnOrOff.text = "OFF";
-            RealLandingToggle.isOn = false;
-        }
-        else
-        {
-            RealLandingOnOrOff.text = "ON";
-            RealLandingToggle.isOn = true;
-        }
+        ToggleStatus(HardcoreMode, HardcoreToggle, HardcoreOnOrOff);
+        ToggleStatus(RealLanding, RealLandingToggle, RealLandingOnOrOff);
     }
 
     public void HardcoreTogglePressed()
     {
-        if (HardcoreMode == true)
-        {
-            HardcoreMode = false;
-            HardcoreOnOrOff.text = "OFF";
-        }
-        else
-        {
-            HardcoreMode = true;
-            HardcoreOnOrOff.text = "ON";
-        }
+        HardcoreMode = !HardcoreMode;
+
+        ToggleStatus(HardcoreMode, HardcoreToggle, HardcoreOnOrOff);
     }
 
     public void RealLandingTogglePressed()
     {
-        if (RealLanding == true)
-        {
-            RealLanding = false;
-            RealLandingOnOrOff.text = "OFF";
-        }
-        else
-        {
-            RealLanding = true;
-            RealLandingOnOrOff.text = "ON";
-        }
+        RealLanding = !RealLanding;
+
+        ToggleStatus(RealLanding, RealLandingToggle, RealLandingOnOrOff);
+    }
+
+    private void ToggleStatus(bool value, Toggle toggle, TMP_Text text)
+    {
+        toggle.SetIsOnWithoutNotify(value);
+        text.text = value ? "ON" : "OFF";
     }
 }

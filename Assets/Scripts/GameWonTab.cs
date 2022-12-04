@@ -40,7 +40,19 @@ public class GameWonTab : ProjectBehaviour
         
         var ladderService = new LadderClientApi(@"https://project-boost.mirtyn.be/ladder/post");
 
-        if (ladderService.TryPost(new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon }, version, out LadderClientApi.PostResponse response))
+        var entryFlag = Ladder.EntryFlag.Competitive;
+
+        if(ProjectBehaviour.RealLanding)
+        {
+            entryFlag = entryFlag.Add(Ladder.EntryFlag.RealLanding);
+        }
+
+        if (ProjectBehaviour.HardcoreMode)
+        {
+            entryFlag = entryFlag.Add(Ladder.EntryFlag.OneLife);
+        }
+
+        if (ladderService.TryPost(new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon, Flag = entryFlag }, version, out LadderClientApi.PostResponse response))
         {
             Debug.Log("The data was succesfully saved.");
             Debug.Log($"You are position {response.Position} on the ladder.");
