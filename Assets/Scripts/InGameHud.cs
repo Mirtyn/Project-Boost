@@ -7,7 +7,6 @@ using UnityEditor;
 
 public class InGameHud : ProjectBehaviour
 {
-    public TextMeshProUGUI ShowVersionHud;
     public TextMeshProUGUI ShowLevelHud;
     public TextMeshProUGUI ShowTimeHud;
     public TextMeshProUGUI ShowFpsHud;
@@ -37,7 +36,6 @@ public class InGameHud : ProjectBehaviour
         ShowHardcoreHud.text = HardCoreShow;
         ShowRealLandingHud.text = RealLandingShow;
 
-        ShowVersionHud.text = ProjectBehaviour.Version;
         ShowLevelHud.text = "Level: " + SceneManager.GetActiveScene().buildIndex;
     }
 
@@ -66,6 +64,4 @@ public class InGameHud : ProjectBehaviour
         }
         ShowFpsHud.text = "FPS: " + Mathf.RoundToInt(m_lastFramerate);
     }
-
-
 }

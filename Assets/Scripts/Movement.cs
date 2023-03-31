@@ -30,7 +30,7 @@ public class Movement : ProjectBehaviour
 
     void ProcessThrust()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.Keypad0))
         {
             StartThrusting();
         }
@@ -64,11 +64,11 @@ public class Movement : ProjectBehaviour
     void ProcessRotation()
     {
         //bool sideThrusterLeft;
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.LeftArrow))
         {
             StartRotatingLeft();
         }
-        else if (Input.GetKey(KeyCode.D))
+        else if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             StartRotatingRight();
         }

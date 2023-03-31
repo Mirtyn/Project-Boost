@@ -9,6 +9,7 @@ public class MainMenu : ProjectBehaviour
     public GameObject OptionsScreen;
     public GameObject StartScreen;
     public Button CompetetiveButton;
+    [SerializeField] GameObject helpPanel;
 
     void Start()
     {
@@ -75,5 +76,10 @@ public class MainMenu : ProjectBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void OpenHelp()
+    {
+        helpPanel.SetActive(true);
     }
 }

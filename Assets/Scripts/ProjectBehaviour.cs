@@ -15,5 +15,10 @@ public class ProjectBehaviour : MonoBehaviour
 
     public static string PlayerName;
 
-    public static string Version = "Beta 0.1.1";
+    public static string Version = "Beta 0.2.1";
+
+    public static bool UseAmbientOcclusion = true;
+    public static bool UseBloom = true;
+    //public static bool UseDepthOfField = true;
+    public static bool UseVignette = true;
 }
