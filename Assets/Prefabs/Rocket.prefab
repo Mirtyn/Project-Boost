@@ -173,6 +173,7 @@ GameObject:
   - component: {fileID: 8919151021314967294}
   - component: {fileID: 6173753522003098936}
   - component: {fileID: 5741582317060420943}
+  - component: {fileID: 7650281318269386446}
   m_Layer: 0
   m_Name: Flash Light
   m_TagString: Untagged
@@ -206,8 +207,8 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 1, g: 0.9568707, b: 0.7971698, a: 1}
-  m_Intensity: 4.5
-  m_Range: 17
+  m_Intensity: 5
+  m_Range: 15
   m_SpotAngle: 60
   m_InnerSpotAngle: 4
   m_CookieSize: 10
@@ -245,7 +246,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -268,6 +269,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07c6f677b696ae4496df1af134effd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &7650281318269386446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716063366905343438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d429237af29508488cd2b69061dafbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 4
+  maxIntensity: 6
+  smoothing: 34
 --- !u!1 &1777129149424546493
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,6 +377,7 @@ GameObject:
   - component: {fileID: 1235352902831405718}
   - component: {fileID: 2170580905969212338}
   - component: {fileID: 3624628395614978765}
+  - component: {fileID: 5563107191363099406}
   m_Layer: 0
   m_Name: Bottom Thruster light
   m_TagString: Untagged
@@ -393,8 +411,8 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.9056604, g: 0.7972488, b: 0.56817377, a: 1}
-  m_Intensity: 2
-  m_Range: 4
+  m_Intensity: 3
+  m_Range: 5.5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -432,7 +450,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -455,6 +473,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40544ee22f6b6b74e8b2a8e9c668b9b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5563107191363099406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2130293237581639796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d429237af29508488cd2b69061dafbc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light: {fileID: 0}
+  minIntensity: 2
+  maxIntensity: 4
+  smoothing: 18
 --- !u!1 &2162189189398609834
 GameObject:
   m_ObjectHideFlags: 0
@@ -1477,6 +1511,8 @@ MonoBehaviour:
   loseAudioClip: {fileID: 8300000, guid: be38448e8dfff3743957ced49a89d7b5, type: 3}
   winParticle: {fileID: 1263734516352250493}
   loseParticle: {fileID: 5449204217412657930}
+  WinOrLoseTextOnHud: {fileID: 0}
+  GameWonPanel: {fileID: 0}
 --- !u!82 &1455322775
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1908,14 +1944,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
---- !u!198 &1440628931721805003 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 584678573886053986, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
-  m_PrefabInstance: {fileID: 2009474536548803241}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1247605234762167939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 771087676723270698, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
+  m_PrefabInstance: {fileID: 2009474536548803241}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1440628931721805003 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 584678573886053986, guid: d4b06ebeeaf0ac044aeed997d98443c2, type: 3}
   m_PrefabInstance: {fileID: 2009474536548803241}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &5287046156955889098
@@ -1975,14 +2011,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
---- !u!198 &5449204217412657930 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 198204746014789312, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
-  m_PrefabInstance: {fileID: 5287046156955889098}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5282897330605073104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4436899185823514, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
+  m_PrefabInstance: {fileID: 5287046156955889098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &5449204217412657930 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 198204746014789312, guid: ab79a37535b979f48b6de56e3a0a5cb0, type: 3}
   m_PrefabInstance: {fileID: 5287046156955889098}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7229192046854042516
