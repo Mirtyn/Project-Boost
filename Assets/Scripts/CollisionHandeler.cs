@@ -125,7 +125,7 @@ public class CollisionHandeler : ProjectBehaviour
 
     void StartNextLevelSequence()
     {
-        if ((SceneManager.GetActiveScene().buildIndex + 1) == SceneManager.sceneCountInBuildSettings)
+        if (SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 6)
         {
             GameWon = true;
             TimeWhenWon = Time.time - StartTime;

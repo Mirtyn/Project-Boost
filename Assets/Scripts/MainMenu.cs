@@ -10,6 +10,7 @@ public class MainMenu : ProjectBehaviour
     public GameObject StartScreen;
     public Button CompetetiveButton;
     [SerializeField] GameObject helpPanel;
+    [SerializeField] GameObject selectLevelPanel;
 
     void Start()
     {
@@ -30,27 +31,23 @@ public class MainMenu : ProjectBehaviour
 
     public void StartFreePlay()
     {
-        SceneManager.LoadScene(1);
+        selectLevelPanel.SetActive(true);
         //float InGameTimeStartPressed = Time.time;
-        StartTime = Time.time;
         //PlayerPrefs.SetFloat("GameStart", InGameTimeStartPressed);
         //PlayerPrefs.SetFloat("GameTimer", InGameTimeStartPressed);
 
         Competetive = false;
         HardcoreMode = false;
-        GameWon = false;
     }
 
     public void StartCompetetive()
     {
-        SceneManager.LoadScene(1);
+        selectLevelPanel.SetActive(true);
         //float InGameTimeStartPressed = Time.time;
-        StartTime = Time.time;
         //PlayerPrefs.SetFloat("GameStart", InGameTimeStartPressed);
         //PlayerPrefs.SetFloat("GameTimer", InGameTimeStartPressed);
 
         Competetive = true;
-        GameWon = false;
     }
 
     public void OpenStart()

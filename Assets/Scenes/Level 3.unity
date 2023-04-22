@@ -2027,6 +2027,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CaveGlowStone
       objectReference: {fileID: 0}
+    - target: {fileID: 8457092268029042794, guid: 9b68e20b9e8c0704998e7bcdfb89b4e1, type: 3}
+      propertyPath: m_Shadows.m_Type
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b68e20b9e8c0704998e7bcdfb89b4e1, type: 3}
 --- !u!1001 &320400617

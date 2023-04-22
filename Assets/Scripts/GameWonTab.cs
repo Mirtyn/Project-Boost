@@ -65,5 +65,7 @@ public class GameWonTab : ProjectBehaviour
 
         //Debug.Log(PlayerName);
         //Debug.Log(TimeWhenWon);
+
+        SceneManager.LoadScene(0);
     }
 }

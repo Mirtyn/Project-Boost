@@ -21,6 +21,8 @@ public class OptionsScreen : ProjectBehaviour
     public TMP_Text MasterLabel, MusicLabel, SFXLabel;
     public Slider MasterSlider, MusicSlider, SFXSlider;
 
+    public string qualityString = ""; // example on how to get the quality setting as a string, to display to the user
+
     void Start()
     {
         MasterSlider.onValueChanged.AddListener(delegate { SetMasterVolume(); });
@@ -125,6 +127,8 @@ public class OptionsScreen : ProjectBehaviour
         TheMixer.GetFloat("SFXVolume", out volume);
         SFXSlider.value = volume;
         SFXLabel.text = Mathf.RoundToInt(SFXSlider.value + 80).ToString();
+
+        qualityString = QualityString;
     }
 
     void Update()
@@ -268,6 +272,24 @@ public class OptionsScreen : ProjectBehaviour
         }
 
         return boolName;
+    }
+
+    public void QualityMinus()
+    {
+
+    }
+
+    public void QualityPlus()
+    {
+
+    }
+
+    string QualityString
+    {
+        get
+        {
+            return QualitySettings.names[QualitySettings.GetQualityLevel()];
+        }
     }
 }
 
