@@ -21,7 +21,9 @@ public class OptionsScreen : ProjectBehaviour
     public TMP_Text MasterLabel, MusicLabel, SFXLabel;
     public Slider MasterSlider, MusicSlider, SFXSlider;
 
-    public string qualityString = ""; // example on how to get the quality setting as a string, to display to the user
+    public GameObject QualityDropdown;
+
+    //public string qualityString = ""; // example on how to get the quality setting as a string, to display to the user
 
     void Start()
     {
@@ -128,7 +130,9 @@ public class OptionsScreen : ProjectBehaviour
         SFXSlider.value = volume;
         SFXLabel.text = Mathf.RoundToInt(SFXSlider.value + 80).ToString();
 
-        qualityString = QualityString;
+        //Debug.Log("current;:" + QualitySettings.GetQualityLevel());
+
+        QualityDropdown.GetComponent<TMP_Dropdown>().value = QualitySettings.GetQualityLevel();
     }
 
     void Update()
@@ -217,6 +221,8 @@ public class OptionsScreen : ProjectBehaviour
         PlayerPrefs.SetInt("Vignette", useVignette);
 
         Screen.SetResolution(Resolutions[selectedResolution].Horizontal, Resolutions[selectedResolution].Vertical, fullscreenTog.isOn);
+
+        QualitySettings.SetQualityLevel(QualityDropdown.GetComponent<TMP_Dropdown>().value);
     }
 
     public void SetMasterVolume()
@@ -274,23 +280,23 @@ public class OptionsScreen : ProjectBehaviour
         return boolName;
     }
 
-    public void QualityMinus()
-    {
+    //public void QualityMinus()
+    //{
 
-    }
+    //}
 
-    public void QualityPlus()
-    {
+    //public void QualityPlus()
+    //{
 
-    }
+    //}
 
-    string QualityString
-    {
-        get
-        {
-            return QualitySettings.names[QualitySettings.GetQualityLevel()];
-        }
-    }
+    //string QualityString
+    //{
+    //    get
+    //    {
+    //        return QualitySettings.names[QualitySettings.GetQualityLevel()];
+    //    }
+    //}
 }
 
 [System.Serializable]
