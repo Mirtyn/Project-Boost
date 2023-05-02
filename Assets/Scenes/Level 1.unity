@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.60057974, g: 0.44402766, b: 0.13825244, a: 1}
+  m_IndirectSpecularColor: {r: 0.6511472, g: 0.5069264, b: 0.19254556, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: a76a88ca4ec2f71479aadc843640e3f9, type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 4fec705bc62dd8f40b516b778c9edd67, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -133,6 +133,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -200,6 +204,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -244,9 +252,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.958
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -260,6 +296,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -335,6 +375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -391,6 +435,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -461,6 +509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -530,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -583,6 +639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -627,9 +687,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.109
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -653,6 +741,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -722,6 +814,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -804,6 +900,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 39
@@ -848,9 +948,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.661
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -869,6 +997,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -940,6 +1072,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -1010,6 +1146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -1075,6 +1215,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 68
@@ -1131,9 +1275,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.193
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1144,6 +1316,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -1188,9 +1364,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.544
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1214,6 +1418,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -1276,6 +1484,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -1320,9 +1532,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.593
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1333,6 +1573,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -1377,9 +1621,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.189
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (35)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1390,6 +1662,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -1434,9 +1710,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.275
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1533,6 +1837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -1594,6 +1902,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -1638,9 +1950,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.474
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (48)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1651,6 +1991,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -1695,9 +2039,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.81
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1721,6 +2093,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -1787,6 +2163,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 72
@@ -1843,9 +2223,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.993
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -1859,6 +2267,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -1924,6 +2336,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -2001,6 +2417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2076,6 +2496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -2141,6 +2565,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2197,9 +2625,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.109
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -2213,6 +2669,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -2314,6 +2774,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 79
@@ -2388,6 +2852,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -2453,6 +2921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 71
@@ -2509,9 +2981,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.193
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (50)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -2530,6 +3030,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -2588,6 +3092,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -2632,9 +3140,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.068
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -2653,6 +3189,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -2719,6 +3259,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2775,9 +3319,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.193
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -2788,6 +3360,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -2844,9 +3420,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.655
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -2865,6 +3469,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -2932,6 +3540,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 75
@@ -2988,9 +3600,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 11.272
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3008,7 +3648,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &579610914
 Transform:
@@ -3132,6 +3772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 48
@@ -3216,6 +3860,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -3281,6 +3929,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -3337,9 +3989,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.993
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3355,6 +4035,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 74
@@ -3411,9 +4095,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 11.272
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3424,6 +4136,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3468,9 +4184,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.69
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (37)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3486,6 +4230,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -3542,9 +4290,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.346
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3563,6 +4339,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -3638,6 +4418,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -3699,6 +4483,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -3769,6 +4557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -3830,6 +4622,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -3874,9 +4670,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.332
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (27)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3902,6 +4726,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 78
@@ -3946,9 +4774,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.672
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -3982,6 +4838,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -4064,6 +4924,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 69
@@ -4120,9 +4984,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.193
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (46)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4146,6 +5038,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -4233,6 +5129,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -4277,9 +5177,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.678
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4295,6 +5223,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4339,9 +5271,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.825
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4564,6 +5524,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4630,6 +5594,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -4686,9 +5654,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.71
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4699,6 +5695,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 77
@@ -4743,9 +5743,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.687
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (45)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4756,6 +5784,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -4800,9 +5832,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.699
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4813,6 +5873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -4857,9 +5921,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.804
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -4878,6 +5970,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -4962,6 +6058,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -5070,6 +6170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -5134,6 +6238,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -5200,6 +6308,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -5258,6 +6370,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+--- !u!1001 &1103377763
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 41.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 198.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 109.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.30792964
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.52239645
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.74118817
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.28796083
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 173.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -49.601013
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -253.144
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939445, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_Name
+      value: GodRays (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
 --- !u!4 &1125509092 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
@@ -5278,6 +6459,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -5351,6 +6536,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -5395,9 +6584,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.26
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -5423,6 +6640,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -5467,9 +6688,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.533
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -5488,6 +6737,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -5558,6 +6811,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -5616,6 +6873,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5660,9 +6921,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.006
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -5681,6 +6970,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -5762,6 +7055,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 73
@@ -5818,9 +7115,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.993
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -5839,6 +7164,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -5915,6 +7244,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5959,9 +7292,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.527
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -5975,6 +7336,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (29)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -6117,6 +7482,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -6173,9 +7542,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.429
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6189,6 +7586,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -6265,6 +7666,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -6309,9 +7714,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.565
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (38)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6325,6 +7758,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -6400,6 +7837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6458,6 +7899,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 70
@@ -6514,9 +7959,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -1.193
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (49)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6527,6 +8000,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -6571,9 +8048,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.81
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (41)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6596,7 +8101,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1613399052
 Transform:
@@ -6657,6 +8162,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -6701,9 +8210,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -2.475
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6714,6 +8251,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 19
@@ -6758,9 +8299,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.581
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6771,6 +8340,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -6815,9 +8388,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.501
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6828,6 +8429,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -6872,9 +8477,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.367
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6890,6 +8523,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -6934,9 +8571,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.341
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -6965,6 +8630,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7034,6 +8703,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7105,6 +8778,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 34
@@ -7149,9 +8826,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -7170,6 +8875,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7245,6 +8954,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -7314,6 +9027,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7393,6 +9110,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -7485,6 +9206,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 35
@@ -7529,9 +9254,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 4.5
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (43)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -7555,6 +9308,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7621,6 +9378,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 76
@@ -7677,9 +9438,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 2.957
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -7703,6 +9492,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7772,6 +9565,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -7884,7 +9681,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 504732812035284733, guid: bc9f27737b8bd0447b697853bc9ad260, type: 3}
       propertyPath: m_Lightmapping
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 504732812035284733, guid: bc9f27737b8bd0447b697853bc9ad260, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -7907,6 +9704,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -7951,9 +9752,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.453
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -7972,6 +9801,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -8042,6 +9875,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -8111,6 +9948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 22
@@ -8129,7 +9970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 142
+      value: 142.01
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8232,6 +10073,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -8470,6 +10315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 32
@@ -8539,6 +10388,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -8599,6 +10452,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -8674,6 +10531,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -8736,6 +10597,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -8780,9 +10645,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.265
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
@@ -8796,6 +10689,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -8871,6 +10768,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 64
@@ -8929,6 +10830,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+--- !u!1001 &2029531506
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 68.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 198.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.43831176
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.46652597
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.67521155
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.36650467
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 175.068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -69.609985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -252.713
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939445, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_Name
+      value: GodRays (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
 --- !u!1001 &2070179692
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8939,6 +10909,10 @@ PrefabInstance:
     - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_Name
       value: Ground (31) Variant (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
@@ -9029,6 +11003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ground (31) Variant (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 55315088143607972, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -9099,6 +11077,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2170580905969212338, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5369600853285954275, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -9142,6 +11124,10 @@ PrefabInstance:
     - target: {fileID: 5369600853285954275, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6173753522003098936, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+      propertyPath: m_Lightmapping
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7571023345477057474, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
       propertyPath: DeathRotation
@@ -9432,6 +11418,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a6421cfb9f47f544aba2f9c6b1e4b23a, type: 3}
+--- !u!1001 &4475414350184287866
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 38.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 198.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.41630447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.45499507
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7077574
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.34460062
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 173.745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -65.268005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939432, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -249.479
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: LightsModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: ShapeModule.m_Scale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939435, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 1.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4475414351123939445, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
+      propertyPath: m_Name
+      value: GodRays
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b78ee1b05a333d14b8e591df6d3d8252, type: 3}
 --- !u!1001 &4816391031804959144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9442,6 +11501,10 @@ PrefabInstance:
     - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_Name
       value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 2287608620812970100, guid: 6835917cb65a60846972fee22fa71464, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 5305519803148052712, guid: 6835917cb65a60846972fee22fa71464, type: 3}
       propertyPath: m_RootOrder
@@ -9546,7 +11609,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 504732812035284733, guid: bc9f27737b8bd0447b697853bc9ad260, type: 3}
       propertyPath: m_Lightmapping
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 504732812035284733, guid: bc9f27737b8bd0447b697853bc9ad260, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -9627,9 +11690,97 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 384043704779000588, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 484458893244698642, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 652150129765771532, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 729964205165600784, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 784119695094164617, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 995834057183428808, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234444064901826401, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1275936686675822025, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1475627435296728305, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1612578178061716175, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861290995811888458, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 1935919672695526675, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2004064821146076020, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2203391982896308452, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2386277365416472105, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2541559892702279355, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 2613804797161803193, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3019875224790500354, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098022571241002784, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3390500664618276917, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
       propertyPath: m_Name
       value: Large Pack Decore Rocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 3390500664618276917, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3490304796909352824, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3560711399156003577, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3608952739642354028, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
       propertyPath: m_RootOrder
@@ -9675,6 +11826,146 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.687
       objectReference: {fileID: 0}
+    - target: {fileID: 3623020157219912677, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4072678630026616147, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120583258740796223, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180181725011649059, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4241725084187592129, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4458234470997245635, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4463716486533661435, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4823782465421356672, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058432875976274596, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5279932640559864248, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5298076930352043297, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303350984338325082, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362568102305534116, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5765034833802661152, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5885021249853897548, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5946570238981452368, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6120410199402748124, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331407020819255744, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439806340431516007, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6517680882436151419, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6586876900793720314, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6921673975925388075, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6927137733555834643, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7301851004937932987, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7609165056631942792, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899420226745776784, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8239704604899870048, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8272521324096030664, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507456188621418647, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8575580111469520624, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8765459906536937234, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771585101583055977, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8839525604507594571, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9041050276537884749, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 9121199017853598547, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27c6cf8b86de00b40b177db698f5af67, type: 3}
 --- !u!1001 &7949888912080106109
@@ -9710,31 +12001,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.17407022
+      value: 0.11335934
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.062397677
+      value: -0.17756417
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.96643895
+      value: -0.941696
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.1783308
+      value: 0.26235354
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 17.589
+      value: 26.991
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -157.977
+      value: -159.87
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666982, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 10.33
+      value: 26.235
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_Intensity
@@ -9746,7 +12037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_Lightmapping
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_Shadows.m_Type
@@ -9766,19 +12057,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: -0.0000000040469352
+      value: 1.2454278
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_BoundingSphereOverride.x
-      value: 0
+      value: 1.2454295
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 0
+      value: 1.2454278
       objectReference: {fileID: 0}
     - target: {fileID: 7949888911710666983, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 0
+      value: 1.2454278
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52cd178f41d79234b94b2ff68e4c9368, type: 3}
@@ -9890,6 +12181,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 579610914}
     m_Modifications:
+    - target: {fileID: 235747898989177300, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 1290056967401813934, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -9934,9 +12229,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.687
       objectReference: {fileID: 0}
+    - target: {fileID: 1935780703613541038, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
       propertyPath: m_Name
       value: Decore Rocks
+      objectReference: {fileID: 0}
+    - target: {fileID: 2689917265372943459, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3089790968494617574, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 5303493767258567143, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6815606604078212156, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7586017759027447511, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 7668310134492123083, guid: b013e0aee528a18468c3660fb2970153, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}

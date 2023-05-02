@@ -63,6 +63,16 @@ public class Movement : ProjectBehaviour
 
     void ProcessRotation()
     {
+        if (transform.rotation.x != 0.0)
+        {
+            transform.rotation = new Quaternion(0, transform.rotation.y, transform.rotation.z, transform.rotation.w);
+        }
+
+        if (transform.rotation.y != 0.0)
+        {
+            transform.rotation = new Quaternion(transform.rotation.x, 0, transform.rotation.z, transform.rotation.w);
+        }
+
         //bool sideThrusterLeft;
         if (Input.GetKey(KeyCode.Q) || Input.GetKey(KeyCode.LeftArrow))
         {
