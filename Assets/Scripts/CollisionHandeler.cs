@@ -111,6 +111,9 @@ public class CollisionHandeler : ProjectBehaviour
             case "Finish":
                 StartNextLevelSequence();
                 break;
+            case "Portal":
+                other.gameObject.GetComponent<Portal>().TeleportPlayer();
+                break;
             //case "Fuel":
             //    Debug.Log("You filled up your fuel tank.");
             //    break;

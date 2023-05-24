@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Friendly
   - Fuel
+  - Portal
+  - MyPlayer
   layers:
   - Default
   - TransparentFX
