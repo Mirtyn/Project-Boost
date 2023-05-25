@@ -30,7 +30,19 @@ public class Portal : MonoBehaviour
 
     public void TeleportPlayer()
     {
-        Vector3 otherPortalUp = OtherPortal.transform.up;
-        player.transform.position = new Vector3(OtherPortal.transform.position.x, OtherPortal.transform.position.y * otherPortalUp.y, OtherPortal.transform.position.z * otherPortalUp.z);
+        Vector3 playerPos = player.transform.position;
+        Quaternion playerRotation = player.transform.rotation;
+
+        Vector3 otherPortalPos = OtherPortal.transform.position;
+        Vector3 otherPortalUpDirection = OtherPortal.transform.up;
+        Quaternion otherPortalRotation = OtherPortal.transform.rotation;
+
+        float spawnDistance = 2.5f;
+
+        Vector3 teleportPos = otherPortalPos + otherPortalUpDirection * spawnDistance;
+        Quaternion teleportRot = new Quaternion(0, 0, playerRotation.z + otherPortalRotation.z, playerRotation.w + otherPortalRotation.w);
+
+        player.transform.position = teleportPos;
+        player.transform.rotation = teleportRot;
     }
 }
