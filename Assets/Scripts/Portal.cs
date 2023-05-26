@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Portal : MonoBehaviour
 {
+    [SerializeField] GameObject teleportParticle;
     GameObject player;
     public GameObject[] FoundPortals;
     public int PortalTag;
@@ -42,7 +43,12 @@ public class Portal : MonoBehaviour
         Vector3 teleportPos = otherPortalPos + otherPortalUpDirection * spawnDistance;
         Quaternion teleportRot = new Quaternion(0, 0, playerRotation.z + otherPortalRotation.z, playerRotation.w + otherPortalRotation.w);
 
+        Instantiate(teleportParticle, playerPos, Quaternion.identity);
+
         player.transform.position = teleportPos;
         player.transform.rotation = teleportRot;
+
+        playerPos = player.transform.position;
+        Instantiate(teleportParticle, playerPos, Quaternion.identity);
     }
 }

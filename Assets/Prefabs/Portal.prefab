@@ -5027,6 +5027,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb3dbfcd7c10284c8fd62e5c769ad82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  teleportParticle: {fileID: 7328703221841209112, guid: d01e153a1200e384680c4346d17f42f4, type: 3}
   FoundPortals: []
   PortalTag: 0
   OtherPortal: {fileID: 0}
