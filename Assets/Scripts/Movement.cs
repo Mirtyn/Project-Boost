@@ -1,3 +1,4 @@
+using Cinemachine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,10 +14,12 @@ public class Movement : ProjectBehaviour
     [SerializeField] ParticleSystem sideLeftThrustParticle;
     [SerializeField] ParticleSystem sideRightThrustParticle;
     [SerializeField] ParticleSystem mainThrustParticle;
+    public Transform RocketFollowEmpty;
 
     // Start is called before the first frame update
     void Start()
     {
+        RocketFollowEmpty = this.transform.Find("RocketFollowEmpty");
         rb = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
     }
@@ -26,6 +29,7 @@ public class Movement : ProjectBehaviour
     {
         ProcessThrust();
         ProcessRotation();
+        ZoomCam();
     }
 
     void ProcessThrust()
@@ -127,5 +131,30 @@ public class Movement : ProjectBehaviour
         rb.freezeRotation = true; // Freezing rotation so we can manually rotate
         transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
         rb.freezeRotation = false; // Unfreezing rotation so the physics system can take over
+    }
+
+    void ZoomCam()
+    {
+        RocketFollowEmpty.position += new Vector3(0, 0, Input.GetAxis("Mouse ScrollWheel") * 5.0f);
+
+        if (RocketFollowEmpty.position.z < -100)
+        {
+            RocketFollowEmpty.position = new Vector3(RocketFollowEmpty.position.x, RocketFollowEmpty.position.y, -100);
+        }
+
+        if (RocketFollowEmpty.position.z > 12)
+        {
+            RocketFollowEmpty.position = new Vector3(RocketFollowEmpty.position.x, RocketFollowEmpty.position.y, 12);
+        }
+
+        //if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        //{
+
+        //}
+
+        //else if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        //{
+
+        //}
     }
 }

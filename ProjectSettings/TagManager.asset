@@ -9,6 +9,7 @@ TagManager:
   - Portal
   - MyPlayer
   - Lever
+  - FollowCamera
   layers:
   - Default
   - TransparentFX

@@ -99,6 +99,37 @@ public class CollisionHandeler : ProjectBehaviour
         }
     }
 
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("works");
+        if (isTransitioning) { return; }
+
+        switch (other.gameObject.tag)
+        {
+            case "Friendly":
+                //Debug.Log("This thing is friendly.");
+                break;
+            case "Finish":
+                StartNextLevelSequence();
+                break;
+            case "Portal":
+                other.gameObject.GetComponent<Portal>().TeleportPlayer();
+                break;
+            case "Lever":
+                other.gameObject.GetComponent<Lever>().TriggerLever();
+                break;
+            //case "Fuel":
+            //    Debug.Log("You filled up your fuel tank.");
+            //    break;
+            default:
+                if (unKilleableOn == false)
+                {
+                    StartCrashSequence();
+                }
+                break;
+        }
+    }
+
     void OnCollisionEnter(Collision other)
     {
         if (isTransitioning) { return; }
@@ -106,7 +137,7 @@ public class CollisionHandeler : ProjectBehaviour
         switch (other.gameObject.tag)
         {
             case "Friendly":
-                Debug.Log("This thing is friendly.");
+                //Debug.Log("This thing is friendly.");
                 break;
             case "Finish":
                 StartNextLevelSequence();

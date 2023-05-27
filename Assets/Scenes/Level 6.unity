@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.23163056, g: 0.122844495, b: 0.021594241, a: 1}
+  m_IndirectSpecularColor: {r: 0.2316302, g: 0.12284433, b: 0.02159423, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2234,7 +2234,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 689494458}
+  m_Follow: {fileID: 774530397013552047}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -2258,7 +2258,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314178692}
   m_LocalRotation: {x: 0.09157999, y: -0.0019107707, z: -0.020772228, w: 0.9955792}
-  m_LocalPosition: {x: 183.99736, y: 24.50791, z: -12.781847}
+  m_LocalPosition: {x: 184.0278, y: 25.236994, z: -16.71472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1952558274}
@@ -5770,11 +5770,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b013e0aee528a18468c3660fb2970153, type: 3}
---- !u!4 &689494458 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5369600853285954275, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
-  m_PrefabInstance: {fileID: 774530397013552046}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &698008831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6258680815196694584, guid: 851cf1afc91fdeb4196cb64830eb0ffc, type: 3}
@@ -7838,7 +7833,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.091579996, y: -0.0019107708, z: -0.02077223, w: 0.99557924}
-  m_LocalPosition: {x: 183.99736, y: 24.50791, z: -12.781847}
+  m_LocalPosition: {x: 184.0278, y: 25.236994, z: -16.71472}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -14228,7 +14223,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 13
+  m_CameraDistance: 17
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -15707,6 +15702,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+--- !u!4 &774530397013552047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379591580, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+  m_PrefabInstance: {fileID: 774530397013552046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1267063500835785364
 PrefabInstance:
   m_ObjectHideFlags: 0

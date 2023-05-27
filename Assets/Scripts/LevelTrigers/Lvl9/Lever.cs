@@ -40,9 +40,9 @@ public class Lever : MonoBehaviour
     {
         for (var i = LeverStick.transform.eulerAngles.z; i < 390;)
         {
-            i += 0.05f;
+            i += 0.075f;
             LeverStick.transform.eulerAngles = new Vector3(LeverStick.transform.eulerAngles.x, LeverStick.transform.eulerAngles.y, i);
-            yield return new WaitForSeconds(0.001f);
+            yield return new WaitForSeconds(0.0005f);
         }
     }
 }

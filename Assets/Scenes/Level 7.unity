@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5193965, g: 0.5966422, b: 0.28935426, a: 1}
+  m_IndirectSpecularColor: {r: 0.5193962, g: 0.59664184, b: 0.28935474, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6530,7 +6530,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 689494458}
+  m_Follow: {fileID: 774530397013552047}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -6554,7 +6554,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314178692}
   m_LocalRotation: {x: 0.09159983, y: -0, z: -0, w: 0.99579597}
-  m_LocalPosition: {x: -29.617, y: 3.1715832, z: -12.781846}
+  m_LocalPosition: {x: -29.617, y: 3.901301, z: -16.714722}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1952558274}
@@ -13689,11 +13689,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6547994233041587813, guid: 1e3910b1be248d244bb7f148af48f7d7, type: 3}
   m_PrefabInstance: {fileID: 678754987}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &689494458 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5369600853285954275, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
-  m_PrefabInstance: {fileID: 774530397013552046}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &689933279 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1304353657815299826, guid: f53fa7849be4c0646b28eff87e8bdf29, type: 3}
@@ -18624,7 +18619,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.09159983, y: 0, z: 0, w: 0.99579597}
-  m_LocalPosition: {x: 0, y: 0, z: -12.781846}
+  m_LocalPosition: {x: 0, y: 0, z: -16.714722}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -18632,7 +18627,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 14.38, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -29.617, y: 3.1715832}
+  m_AnchoredPosition: {x: -29.617, y: 3.901301}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &963194231
@@ -38109,7 +38104,7 @@ MonoBehaviour:
   m_TargetMovementOnly: 1
   m_ScreenX: 0.5
   m_ScreenY: 0.5
-  m_CameraDistance: 13
+  m_CameraDistance: 17
   m_DeadZoneWidth: 0
   m_DeadZoneHeight: 0
   m_DeadZoneDepth: 0
@@ -41969,6 +41964,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+--- !u!4 &774530397013552047 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379591580, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+  m_PrefabInstance: {fileID: 774530397013552046}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2326923206888840064
 PrefabInstance:
   m_ObjectHideFlags: 0

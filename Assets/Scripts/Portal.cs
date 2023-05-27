@@ -50,7 +50,7 @@ public class Portal : MonoBehaviour
         playerRB.velocity /= 2;
 
         player.transform.position = teleportPos;
-        player.transform.rotation = teleportRot;
+        //player.transform.rotation = teleportRot;
 
         playerPos = player.transform.position;
         Instantiate(teleportParticle, playerPos, Quaternion.identity);
