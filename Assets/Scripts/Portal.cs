@@ -38,12 +38,16 @@ public class Portal : MonoBehaviour
         Vector3 otherPortalUpDirection = OtherPortal.transform.up;
         Quaternion otherPortalRotation = OtherPortal.transform.rotation;
 
+        Rigidbody playerRB = player.GetComponent<Rigidbody>();
+
         float spawnDistance = 2.5f;
 
         Vector3 teleportPos = otherPortalPos + otherPortalUpDirection * spawnDistance;
         Quaternion teleportRot = new Quaternion(0, 0, playerRotation.z + otherPortalRotation.z, playerRotation.w + otherPortalRotation.w);
 
         Instantiate(teleportParticle, playerPos, Quaternion.identity);
+
+        playerRB.velocity /= 2;
 
         player.transform.position = teleportPos;
         player.transform.rotation = teleportRot;

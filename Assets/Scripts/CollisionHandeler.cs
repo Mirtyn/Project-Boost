@@ -114,6 +114,9 @@ public class CollisionHandeler : ProjectBehaviour
             case "Portal":
                 other.gameObject.GetComponent<Portal>().TeleportPlayer();
                 break;
+            case "Lever":
+                other.gameObject.GetComponent<Lever>().TriggerLever();
+                break;
             //case "Fuel":
             //    Debug.Log("You filled up your fuel tank.");
             //    break;

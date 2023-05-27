@@ -8,6 +8,7 @@ TagManager:
   - Fuel
   - Portal
   - MyPlayer
+  - Lever
   layers:
   - Default
   - TransparentFX
