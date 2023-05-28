@@ -93,18 +93,82 @@ MonoBehaviour:
       m_YScaleBool: 1
       m_ZScaleBool: 1
     name: LittleStoneLush1
-  - gameObject: {fileID: 2819752887746156799, guid: d171434f67d140c408414aecba5b60fe, type: 3}
+  - gameObject: {fileID: 6441869999263316582, guid: 41d7b2c6e12d11c4e9c272d51a8c78c6, type: 3}
     settings:
       m_Strength: 50
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 360, y: 360, z: 360}
-      m_ScaleRangeMin: {x: 0.7, y: 0.7, z: 0.7}
-      m_ScaleRangeMax: {x: 10, y: 10, z: 10}
-      m_UniformScale: {x: 1, y: 1}
-      m_UniformBool: 0
-      m_XRotationBool: 1
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
       m_YRotationBool: 1
-      m_ZRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: BackMountain 1
+  - gameObject: {fileID: 311909249070356763, guid: db3ee7fcc3bed0149a90143040406fec, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: BackMountain 2
+  - gameObject: {fileID: 1834270839077236515, guid: b9506732a4a354b458afa258d5bb83cb, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: BackMountain 3
+  - gameObject: {fileID: 3498122790205716582, guid: b95802e52fbf8214d9f7c840b897a20c, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: BackMountain 4
+  - gameObject: {fileID: 827267544534977781, guid: d171434f67d140c408414aecba5b60fe, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 360, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 0.05, y: 0.2}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 1
+      m_ZRotationBool: 0
       m_XScaleBool: 1
       m_YScaleBool: 1
       m_ZScaleBool: 1
