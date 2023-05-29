@@ -6,7 +6,7 @@ using UnityEngine;
 public class Movement : ProjectBehaviour
 {
     [SerializeField] float mainThrust = 100f;
-    [SerializeField] float rotationThrust = 1f;
+    [SerializeField] float rotationThrust = 1.5f;
     [SerializeField] AudioClip mainEngine;
     Rigidbody rb;
     AudioSource audioSource;
