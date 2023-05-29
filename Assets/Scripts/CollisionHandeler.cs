@@ -116,7 +116,14 @@ public class CollisionHandeler : ProjectBehaviour
                 other.gameObject.GetComponent<Portal>().TeleportPlayer();
                 break;
             case "Lever":
-                other.gameObject.GetComponent<Lever>().TriggerLever();
+                if (other.gameObject.TryGetComponent(out LeverLvl9 _))
+                {
+                    other.gameObject.GetComponent<LeverLvl9>().TriggerLever();
+                }
+                if (other.gameObject.TryGetComponent(out LeverLvl10 _))
+                {
+                    other.gameObject.GetComponent<LeverLvl10>().TriggerLever();
+                }
                 break;
             //case "Fuel":
             //    Debug.Log("You filled up your fuel tank.");
@@ -146,7 +153,14 @@ public class CollisionHandeler : ProjectBehaviour
                 other.gameObject.GetComponent<Portal>().TeleportPlayer();
                 break;
             case "Lever":
-                other.gameObject.GetComponent<Lever>().TriggerLever();
+                if (other.gameObject.TryGetComponent(out LeverLvl9 _))
+                {
+                    other.gameObject.GetComponent<LeverLvl9>().TriggerLever();
+                }
+                if (other.gameObject.TryGetComponent(out LeverLvl10 _))
+                {
+                    other.gameObject.GetComponent<LeverLvl10>().TriggerLever();
+                }
                 break;
             //case "Fuel":
             //    Debug.Log("You filled up your fuel tank.");

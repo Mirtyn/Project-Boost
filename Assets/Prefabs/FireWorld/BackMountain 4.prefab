@@ -43,7 +43,6 @@ GameObject:
   - component: {fileID: 7260957338199471788}
   - component: {fileID: 622912587982963788}
   - component: {fileID: 1936391367576052030}
-  - component: {fileID: 5255228922549113030}
   - component: {fileID: 8070958172591597122}
   m_Layer: 0
   m_Name: BackMountain
@@ -115,19 +114,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &5255228922549113030
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3498122790243016057}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &8070958172591597122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -289,7 +275,6 @@ GameObject:
   - component: {fileID: 7632979623973439907}
   - component: {fileID: 7632979623973439911}
   - component: {fileID: 7632979623973439910}
-  - component: {fileID: 7632979623973439905}
   - component: {fileID: 7632979623973439904}
   m_Layer: 0
   m_Name: BackMountain (1)
@@ -361,19 +346,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &7632979623973439905
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7632979623973439906}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &7632979623973439904
 MonoBehaviour:
   m_ObjectHideFlags: 0
