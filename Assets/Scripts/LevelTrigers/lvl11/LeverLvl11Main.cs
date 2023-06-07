@@ -20,26 +20,7 @@ public class LeverLvl11Main : MonoBehaviour
 
 
 
-    [SerializeField] GameObject Lighn1;
-    [SerializeField] GameObject Lighn2;
-    [SerializeField] GameObject Lighn3;
-    [SerializeField] GameObject Lighn4;
-    [SerializeField] GameObject Lighn5;
-    [SerializeField] GameObject Lighn6;
-
-    [SerializeField] GameObject Lighn1_1;
-    [SerializeField] GameObject Lighn2_1;
-    [SerializeField] GameObject Lighn3_1;
-    [SerializeField] GameObject Lighn4_1;
-    [SerializeField] GameObject Lighn5_1;
-    [SerializeField] GameObject Lighn6_1;
-
-    [SerializeField] GameObject Lighn1_2;
-    [SerializeField] GameObject Lighn2_2;
-    [SerializeField] GameObject Lighn3_2;
-    [SerializeField] GameObject Lighn4_2;
-    [SerializeField] GameObject Lighn5_2;
-    [SerializeField] GameObject Lighn6_2;
+    [SerializeField] GameObject[] Lightning;
 
 
 
@@ -75,6 +56,20 @@ public class LeverLvl11Main : MonoBehaviour
             Beam4.SetActive(false);
             Beam5.SetActive(false);
             Beam6.SetActive(false);
+
+            Expl1.SetActive(true);
+            Expl2.SetActive(true);
+            Expl3.SetActive(true);
+            Expl4.SetActive(true);
+            Expl5.SetActive(true);
+            Expl6.SetActive(true);
+
+            var i = 0;
+            foreach(GameObject _ in Lightning)
+            {
+                Lightning[i].SetActive(true);
+                i++;
+            }
 
             DesLighn1.SetActive(false);
             DesLighn2.SetActive(false);
