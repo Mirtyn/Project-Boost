@@ -135,11 +135,18 @@ public class Movement : ProjectBehaviour
 
     void ZoomCam()
     {
-        RocketFollowEmpty.position += new Vector3(0, 0, Input.GetAxis("Mouse ScrollWheel") * 5.0f);
-
-        if (RocketFollowEmpty.position.z < -100)
+        if (Mathf.Abs(RocketFollowEmpty.position.z) <= 1.2f)
         {
-            RocketFollowEmpty.position = new Vector3(RocketFollowEmpty.position.x, RocketFollowEmpty.position.y, -100);
+            RocketFollowEmpty.position += new Vector3(0, 0, Input.GetAxis("Mouse ScrollWheel"));
+        }
+        else
+        {
+            RocketFollowEmpty.position += new Vector3(0, 0, Input.GetAxis("Mouse ScrollWheel") * 10.0f * (Mathf.Abs(RocketFollowEmpty.position.z) / 10));
+        }
+
+        if (RocketFollowEmpty.position.z < -200)
+        {
+            RocketFollowEmpty.position = new Vector3(RocketFollowEmpty.position.x, RocketFollowEmpty.position.y, -200);
         }
 
         if (RocketFollowEmpty.position.z > 12)
