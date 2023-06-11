@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class LeverLvl11Main : MonoBehaviour
 {
+    [SerializeField] GameObject teleportParticle;
+    GameObject player;
+
     [SerializeField] GameObject Beam1;
     [SerializeField] GameObject Beam2;
     [SerializeField] GameObject Beam3;
@@ -30,12 +33,20 @@ public class LeverLvl11Main : MonoBehaviour
     [SerializeField] GameObject DesLighn4;
     [SerializeField] GameObject DesLighn5;
 
+    [SerializeField] GameObject Platform;
+
 
     [SerializeField] GameObject LeverStick;
     bool triggered = false;
 
+    [SerializeField] GameObject BossHead;
+
+    [SerializeField] GameObject LandingPad;
+
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("MyPlayer");
+
         Invoke(nameof(DeActivateStuff), 0.1f);
     }
 
@@ -50,35 +61,69 @@ public class LeverLvl11Main : MonoBehaviour
         {
             triggered = true;
 
-            Beam1.SetActive(false);
-            Beam2.SetActive(false);
-            Beam3.SetActive(false);
-            Beam4.SetActive(false);
-            Beam5.SetActive(false);
-            Beam6.SetActive(false);
+            Platform.SetActive(true);
 
-            Expl1.SetActive(true);
-            Expl2.SetActive(true);
-            Expl3.SetActive(true);
-            Expl4.SetActive(true);
-            Expl5.SetActive(true);
-            Expl6.SetActive(true);
+            Instantiate(teleportParticle, player.transform.position, Quaternion.identity);
 
-            var i = 0;
-            foreach(GameObject _ in Lightning)
-            {
-                Lightning[i].SetActive(true);
-                i++;
-            }
+            Invoke(nameof(teleportPLayer), 0.2f);
 
-            DesLighn1.SetActive(false);
-            DesLighn2.SetActive(false);
-            DesLighn3.SetActive(false);
-            DesLighn4.SetActive(false);
-            DesLighn5.SetActive(false);
+            Invoke(nameof(TheBoom), 1f);
+
+            Invoke(nameof(EndLevel), 30f);
 
             StartCoroutine(LeverMove());
         }
+    }
+
+    void teleportPLayer()
+    {
+        Vector3 playerPos = player.transform.position;
+        Quaternion playerRotation = player.transform.rotation;
+
+        Vector3 otherPos = new Vector3(81, 117, 0);
+
+        Rigidbody playerRB = player.GetComponent<Rigidbody>();
+
+        Vector3 teleportPos = otherPos;
+
+        playerRB.velocity /= 2;
+
+        player.transform.position = teleportPos;
+
+        playerPos = player.transform.position;
+        Instantiate(teleportParticle, playerPos, Quaternion.identity);
+    }
+
+    void TheBoom()
+    {
+        Beam1.SetActive(false);
+        Beam2.SetActive(false);
+        Beam3.SetActive(false);
+        Beam4.SetActive(false);
+        Beam5.SetActive(false);
+        Beam6.SetActive(false);
+
+        Expl1.SetActive(true);
+        Expl2.SetActive(true);
+        Expl3.SetActive(true);
+        Expl4.SetActive(true);
+        Expl5.SetActive(true);
+        Expl6.SetActive(true);
+
+        var i = 0;
+        foreach (GameObject _ in Lightning)
+        {
+            Lightning[i].SetActive(true);
+            i++;
+        }
+
+        DesLighn1.SetActive(false);
+        DesLighn2.SetActive(false);
+        DesLighn3.SetActive(false);
+        DesLighn4.SetActive(false);
+        DesLighn5.SetActive(false);
+
+        Invoke(nameof(StartBoss), 2f);
     }
 
     IEnumerator LeverMove()
@@ -89,5 +134,15 @@ public class LeverLvl11Main : MonoBehaviour
             LeverStick.transform.eulerAngles = new Vector3(LeverStick.transform.eulerAngles.x, LeverStick.transform.eulerAngles.y, i);
             yield return new WaitForSeconds(0.00025f);
         }
+    }
+
+    void StartBoss()
+    {
+        BossHead.SetActive(true);
+    }
+
+    void EndLevel()
+    {
+        LandingPad.SetActive(true);
     }
 }
