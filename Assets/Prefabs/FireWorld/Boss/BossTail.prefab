@@ -172,6 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2231033242131335454}
   - component: {fileID: 2064152527}
+  - component: {fileID: 8148159710997476572}
   m_Layer: 0
   m_Name: BossTail
   m_TagString: Untagged
@@ -209,6 +210,19 @@ MonoBehaviour:
   pathCreator: {fileID: 0}
   endOfPathInstruction: 2
   speed: 35
+--- !u!65 &8148159710997476572
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1566663630020400036}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.9970188, y: 4.1026726, z: 12.206484}
+  m_Center: {x: 0, y: 2, z: -0.94310665}
 --- !u!1 &4346852845763475100
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,6 +10,8 @@ TagManager:
   - MyPlayer
   - Lever
   - FollowCamera
+  - BossHealth
+  - BossHead
   layers:
   - Default
   - TransparentFX

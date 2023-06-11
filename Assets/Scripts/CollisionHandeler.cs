@@ -136,6 +136,10 @@ public class CollisionHandeler : ProjectBehaviour
                 {
                     other.gameObject.GetComponent<LeverLvl11Main>().TriggerLever();
                 }
+                if (other.gameObject.TryGetComponent(out BossKillers _))
+                {
+                    other.gameObject.GetComponent<BossKillers>().TriggerLever();
+                }
                 break;
             //case "Fuel":
             //    Debug.Log("You filled up your fuel tank.");
@@ -184,6 +188,10 @@ public class CollisionHandeler : ProjectBehaviour
                 if (other.gameObject.TryGetComponent(out LeverLvl11Main _))
                 {
                     other.gameObject.GetComponent<LeverLvl11Main>().TriggerLever();
+                }
+                if (other.gameObject.TryGetComponent(out BossKillers _))
+                {
+                    other.gameObject.GetComponent<BossKillers>().TriggerLever();
                 }
                 break;
             //case "Fuel":

@@ -375,6 +375,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3490955997617124473}
   - component: {fileID: 1974869885}
+  - component: {fileID: 8913198134214313879}
   m_Layer: 0
   m_Name: BossHead
   m_TagString: Untagged
@@ -412,6 +413,19 @@ MonoBehaviour:
   pathCreator: {fileID: 0}
   endOfPathInstruction: 2
   speed: 35
+--- !u!65 &8913198134214313879
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4267597528839270083}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.2145214, y: 4.4212685, z: 8.55883}
+  m_Center: {x: 0, y: 2, z: -1.3325853}
 --- !u!1 &4356255219265544694
 GameObject:
   m_ObjectHideFlags: 0
