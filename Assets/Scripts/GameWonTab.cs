@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEditor;
-using ProjectBoostLadder;
+using ProjectBoost;
 using System.Globalization;
 
 public class GameWonTab : ProjectBehaviour
@@ -37,22 +37,28 @@ public class GameWonTab : ProjectBehaviour
     public void SubmitButtonPressed()
     {
         var version = ProjectBehaviour.Version;
-        
-        var ladderService = new LadderClientApi(@"https://project-boost.mirtyn.be/ladder/post");
+
+        //var ladderService = new LadderClientApi(@"https://project-boost.mirtyn.be/ladder/post");
+        var ladderService = new LadderClientApi(@"https://mirtyn.be/project-boost/ladder/post");
 
         var entryFlag = Ladder.EntryFlag.Competitive;
 
-        if(ProjectBehaviour.RealLanding)
+        if (ProjectBehaviour.RealLanding)
         {
-            entryFlag = entryFlag.Add(Ladder.EntryFlag.RealLanding);
+            entryFlag = entryFlag | Ladder.EntryFlag.RealLanding;
         }
 
         if (ProjectBehaviour.HardcoreMode)
         {
-            entryFlag = entryFlag.Add(Ladder.EntryFlag.OneLife);
+            entryFlag = entryFlag | Ladder.EntryFlag.Hardcore;
         }
 
-        if (ladderService.TryPost(new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon, Flag = entryFlag }, version, out LadderClientApi.PostResponse response))
+        var worldFlag = Ladder.WorldFlag.World1;
+
+        if (ladderService.TryPost(
+            new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon, Flag = entryFlag, WorldFlag = worldFlag },
+            version,
+            out LadderClientApi.PostResponse response))
         {
             Debug.Log("The data was succesfully saved.");
             Debug.Log($"You are position {response.Position} on the ladder.");
@@ -62,9 +68,6 @@ public class GameWonTab : ProjectBehaviour
             Debug.Log("The data could not be saved.");
             Debug.Log("Please try again latter.");
         }
-
-        //Debug.Log(PlayerName);
-        //Debug.Log(TimeWhenWon);
 
         SceneManager.LoadScene(0);
     }
