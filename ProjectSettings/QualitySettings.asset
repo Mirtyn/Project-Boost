@@ -19,7 +19,7 @@ QualitySettings:
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
     skinWeights: 1
-    textureQuality: 0
+    textureQuality: 3
     anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
@@ -46,17 +46,17 @@ QualitySettings:
   - serializedVersion: 2
     name: Low
     pixelLightCount: 3
-    shadows: 1
+    shadows: 0
     shadowResolution: 0
     shadowProjection: 1
     shadowCascades: 1
-    shadowDistance: 20
-    shadowNearPlaneOffset: 3
+    shadowDistance: 0
+    shadowNearPlaneOffset: 0
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 0
-    skinWeights: 2
-    textureQuality: 0
+    skinWeights: 1
+    textureQuality: 1
     anisotropicTextures: 0
     antiAliasing: 0
     softParticles: 0
@@ -72,11 +72,11 @@ QualitySettings:
     streamingMipmapsRenderersPerFrame: 512
     streamingMipmapsMaxLevelReduction: 2
     streamingMipmapsMaxFileIORequests: 1024
-    particleRaycastBudget: 16
+    particleRaycastBudget: 12
     asyncUploadTimeSlice: 2
-    asyncUploadBufferSize: 16
+    asyncUploadBufferSize: 10
     asyncUploadPersistentBuffer: 1
-    resolutionScalingFixedDPIFactor: 1
+    resolutionScalingFixedDPIFactor: 0
     customRenderPipeline: {fileID: 0}
     excludedTargetPlatforms: []
   - serializedVersion: 2
@@ -159,7 +159,7 @@ QualitySettings:
     shadowProjection: 1
     shadowCascades: 2
     shadowDistance: 300
-    shadowNearPlaneOffset: 3
+    shadowNearPlaneOffset: 4
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1
@@ -195,7 +195,7 @@ QualitySettings:
     shadowProjection: 1
     shadowCascades: 4
     shadowDistance: 1000
-    shadowNearPlaneOffset: 3
+    shadowNearPlaneOffset: 5
     shadowCascade2Split: 0.33333334
     shadowCascade4Split: {x: 0.06666667, y: 0.2, z: 0.46666667}
     shadowmaskMode: 1

@@ -27752,6 +27752,22 @@ PrefabInstance:
       objectReference: {fileID: 963194227}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ebbb4acf4b15b243bd168ff2ca06acf, type: 3}
+--- !u!114 &726530665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3007480489859900426, guid: 3ebbb4acf4b15b243bd168ff2ca06acf, type: 3}
+  m_PrefabInstance: {fileID: 726530664}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &726530666 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3343264650650662567, guid: 3ebbb4acf4b15b243bd168ff2ca06acf, type: 3}
+  m_PrefabInstance: {fileID: 726530664}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &729528307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86561,6 +86577,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7571023345477057474, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+      propertyPath: GameWonPanel
+      value: 
+      objectReference: {fileID: 726530666}
+    - target: {fileID: 7571023345477057474, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
+      propertyPath: WinOrLoseTextOnHud
+      value: 
+      objectReference: {fileID: 726530665}
     - target: {fileID: 8506331356843996532, guid: 1b47701b395a50f43b63aa17fb328492, type: 3}
       propertyPath: m_Name
       value: Rocket

@@ -208,7 +208,7 @@ public class CollisionHandeler : ProjectBehaviour
 
     void StartNextLevelSequence()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 6)
+        if (SceneManager.GetActiveScene().buildIndex == 3 || SceneManager.GetActiveScene().buildIndex == 6 || SceneManager.GetActiveScene().buildIndex == 9 || SceneManager.GetActiveScene().buildIndex == 12)
         {
             GameWon = true;
             TimeWhenWon = Time.time - StartTime;
@@ -221,7 +221,7 @@ public class CollisionHandeler : ProjectBehaviour
                 GetComponent<Movement>().enabled = false;
                 audioSource.PlayOneShot(winAudioClip);
                 winParticle.Play();
-                Invoke("LoadSceneWinFreePlay", winOrLoseDelay * 2);
+                Invoke(nameof(LoadSceneWinFreePlay), winOrLoseDelay * 2);
             }
             else
             {
@@ -230,7 +230,7 @@ public class CollisionHandeler : ProjectBehaviour
                 GetComponent<Movement>().enabled = false;
                 audioSource.PlayOneShot(winAudioClip);
                 winParticle.Play();
-                Invoke("LoadSceneWinCompetetive", winOrLoseDelay * 2);
+                Invoke(nameof(LoadSceneWinCompetetive), winOrLoseDelay * 2);
 
                 // toon scherm met tijd en submit knop
 

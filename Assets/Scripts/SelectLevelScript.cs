@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SelectLevelScript : ProjectBehaviour
 {
-    int lvl = 1;
+    int lvl = 0;
 
     public void PlayWorld1()
     {
@@ -16,6 +16,18 @@ public class SelectLevelScript : ProjectBehaviour
     public void PlayWorld2()
     {
         lvl = 4;
+        StartWorld(lvl);
+    }
+
+    public void PlayWorld3()
+    {
+        lvl = 7;
+        StartWorld(lvl);
+    }
+
+    public void PlayWorld4()
+    {
+        lvl = 10;
         StartWorld(lvl);
     }
 

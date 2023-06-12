@@ -55,6 +55,24 @@ public class GameWonTab : ProjectBehaviour
 
         var worldFlag = Ladder.WorldFlag.World1;
 
+        if (SceneManager.GetActiveScene().buildIndex == 3)
+        {
+            worldFlag = Ladder.WorldFlag.World1;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 6)
+        {
+            worldFlag = Ladder.WorldFlag.World2;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 9)
+        {
+            worldFlag = Ladder.WorldFlag.World3;
+        }
+        else if (SceneManager.GetActiveScene().buildIndex == 12)
+        {
+            worldFlag = Ladder.WorldFlag.World4;
+        }
+
+
         if (ladderService.TryPost(
             new Ladder.Entry { Name = PlayerName, TimeInSeconds = TimeWhenWon, Flag = entryFlag, WorldFlag = worldFlag },
             version,
